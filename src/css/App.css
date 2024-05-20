@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Jura";
+    src: url("./fonts/Jura.ttf");
+}
+
+.App {
+    font-family: "Jura";
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(1, 63, 139);
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.App-Sidebar-main-flex {
+    display: flex;
+    padding: 0 10px 10px 0;
+    border-radius: 10px;
+}

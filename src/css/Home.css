@@ -1,0 +1,18 @@
+.home {
+    padding: 0 0 0 10px;
+}
+
+.filter-bar {
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 419px));
+    gap: 10px;
+    height: 300px;
+}
+
+.project-card {
+    height: 300px;
+}

@@ -1,0 +1,200 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+/*Первый блок - Кнопка раскрывания Sidebar*/
+.header-block-1 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 147, 194);
+    color: #fff;
+    border-radius: 10px;
+
+}
+.color-button-sidebar {
+    background-color: rgb(0, 136, 172);
+    border-color: rgb(0, 136, 172);
+}
+.color-button-sidebar img {
+    width: 64px;
+    height: 64px;
+}
+.color-button-sidebar:hover {
+    background-color: rgb(1, 40, 96);
+    border-color: rgb(1, 40, 96);
+    cursor: pointer;
+}
+.color-button-theme {
+    background-color: rgb(0, 147, 194);
+    border-color: rgb(0, 147, 194);
+}
+.color-button-theme:hover {
+    background-color: rgb(1, 40, 96);
+    border-color: rgb(1, 40, 96);
+    cursor: pointer;
+}
+.color-button-theme img {
+    width: 64px;
+    height: 64px;
+}
+
+
+/*Второй блок - логотип*/
+.header-block-2 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 147, 194, 30%);
+
+    color: #fff;
+    border-radius: 10px;
+}
+.logo {
+    font-size: 24px;
+    padding: 25px 30px 25px 30px;
+    margin: 12px;
+    border-radius: 5px;
+    background-color: #444444;
+    color: blue;
+}
+
+/*Поиск, кнопки с аккаунтами и другое*/
+.header-block-3 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 147, 194, 30%);
+    color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.search-bar {
+    padding: 0;
+    font-size: 24px;
+    margin-left: 20px;
+    border-radius: 3px;
+
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 147, 194);
+    border-radius: 10px;
+    margin-left: 12px;
+    width: 1238px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.icon-links:hover {
+    background-color: rgb(1, 63, 139);
+}
+
+.icon-links:active {
+    background-color: rgb(1, 40, 96);
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+    margin-left: 0;
+}
+
+.icon-links {
+    background-color: rgb(31, 212, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.icon-links img {
+    width: 32px;
+    height: 32px;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.auth-button {
+    background-color: blue;
+    margin: 18px 15px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-button-theme-toggle {
+    padding: 10px;
+}
+
+.messenger-margin-right {
+    margin-left: 12.5vw;
+
+}
+
+
+
+
+
+
+
+
+.header-btn {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.profile-dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: black;
+
+    background: rgb(0, 147, 194);
+}
+
+
+/*ОБЩИЙ СТИЛЬ ПРОФИЛЯ кроме низа*/
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+/*ОБЩИЙ СТИЛЬ ПРОФИЛЯ + РАЗМЕЩЕНИЕ*/
+.user-icon-text-block {
+    position: absolute;
+    display: flex;
+    left: 20px;
+    bottom: 20px;
+}
+/*Фоновая картинка и скругление (ЕСЛИ ОТКРЫТ Sidebar) или*/
+.profile-banner-1 {
+    width: 83.3vw;
+    height: 277px;
+
+    border-radius: 10px 10px 0 0;
+}
+/*Если нет...*/
+.profile-banner-2 {
+    width: 98vw;
+    height: 277px;
+
+    border-radius: 10px 10px 0 0;
+}
+/*Иконка пользователя*/
+.profile-picture {
+    width: 128px;
+    height: 128px;
+    border-radius: 10px;
+
+}
+
+/*НИК И @user*/
+.user-names {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+
+/*СПИСОК ДЕЙСТВИЙ*/
+.profile-sidebar-1 {
+    display: flex;
+    background-color: rgba(85, 85, 85, 0.36);
+    padding: 20px 0;
+    width: 83.3vw;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+}
+.profile-sidebar-2 {
+    display: flex;
+    padding: 20px 0;
+    width: 98vw;
+    box-sizing: border-box;
+    background: rgba(85, 85, 85, 0.36);
+    border-radius: 0 0 10px 10px;
+}
+
+.profile-sidebar-item-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 221px;
+    height: 56px;
+
+    border-radius: 10px;
+    background: rgb(0, 220, 255);
+
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+
+}
+.profile-sidebar-item-1:hover {
+    background: rgb(1, 63, 139);
+    color: white;
+}
+
+.profile-sidebar-item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 246px;
+    height: 56px;
+
+    border-radius: 10px;
+    background: rgb(0, 220, 255);
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.profile-sidebar-item-2:hover {
+    background: rgb(1, 63, 139);
+}
+
+.profile-sidebar-item-1 .active {
+    border-top: 2px solid red;
+}
