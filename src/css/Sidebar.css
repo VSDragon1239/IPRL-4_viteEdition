@@ -51,6 +51,7 @@
 
 .sidebar-item:hover {
     background-color: rgb(1, 63, 139);
+    color: white;
 }
 
 .sidebar-item.active {
